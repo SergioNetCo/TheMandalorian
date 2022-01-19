@@ -8,6 +8,98 @@ html {
     background-attachment: fixed;
 }
 
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.portada {
+    background-image: linear-gradient(to top , rgba(209, 162, 31, 0.349), rgba(139, 126, 67, 0.644)), url(https://i.pinimg.com/originals/3d/e1/2d/3de12db77a224e0db9396ea90c874106.jpg);
+    text-align: justify;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height:  32rem;
+    padding: 5rem;
+}
+
+.portada > h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    -webkit-animation-name: puffIn;
+    animation-name: puffIn;
+    animation-duration: 2s;
+}
+      
+    @-webkit-keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+        }
+        100% {
+          opacity: 1;
+          transform-origin: 50% 50%;
+          transform: scale(1, 1);
+          filter: blur(0px);
+        }
+      }
+    @keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+}
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+        filter: blur(0px);
+    }
+}
+
+.portada > h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    -webkit-animation-name: puffIn;
+    animation-name: puffIn;
+    animation-duration: 2s;
+}
+      
+    @-webkit-keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+        }
+        100% {
+          opacity: 1;
+          transform-origin: 50% 50%;
+          transform: scale(1, 1);
+          filter: blur(0px);
+        }
+      }
+    @keyframes puffIn {
+     0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(2px);
+}
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+        filter: blur(0px);
+    }
+}
+
 nav {
     background-color: black;
     padding: 1.5rem;
@@ -15,6 +107,7 @@ nav {
     background-image: url(https://cdn.pixabay.com/photo/2017/10/21/12/09/texture-2874538_1280.jpg);
     background-position: center;
     background-size: cover;
+    margin: 0;
 }
 
 .nava > a {
